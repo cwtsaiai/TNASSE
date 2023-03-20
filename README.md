@@ -14,7 +14,7 @@ in IEEE Transactions on Evolutionary Computation (TEVC)
 ## Download
 
 ### NAS-Bench-101
-download [nasbench_only108.tfrecord](https://github.com/google-research/nasbench) file and place it in searchspace folder.
+Download [nasbench_only108.tfrecord](https://github.com/google-research/nasbench) file and place it in searchspace folder.
 
 ### NAS-Bench-201
 Download [NAS-Bench-201-v1_1-096897.pth](https://github.com/D-X-Y/NAS-Bench-201) file and place it in searchspace folder.
@@ -37,15 +37,4 @@ conda activate tnasse
 Here we provide a script to reproduce the results
 ```
 ./search.sh
-```
-
-## Citation
-
-```
-@article{wu2023tnasse,
-  title={A Training-Free Neural Architecture Search Algorithm based on Search Economics},
-  author={Meng-Ting Wu and Hung-I Lin and Chun-Wei Tsai},
-  year={2023},
-  booktitle={IEEE Transactions on Evolutionary Computation},
-}
 ```
