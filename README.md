@@ -3,7 +3,7 @@
 
  [A Training-Free Neural Architecture Search Algorithm based on Search Economics]() <br>
  [Meng-Ting Wu](),
- [Hun-I Lin](),
+ [Hung-I Lin](),
  [Chun-Wei Tsai](https://sites.google.com/site/cwtsai0807/chun-wei-tsai) <br>
   National Sun Yat-sen University  
 in IEEE Transactions on Evolutionary Computation (TEVC)
