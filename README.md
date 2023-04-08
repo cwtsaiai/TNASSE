@@ -1,45 +1,52 @@
-# Source Codes of Training-free Neural Architecture Search based on Search Economics (TNASSE)
-<b>We are cleaning up the source codes now, and all of them will be uploaded a few days later<\b>
+# A Training-free Neural Architecture Search based on Search Economics (TNASSE)
 
-## 1. A Brief Introduction to TNASSE
+The official code for the IEEE TEVC paper: [A Training-free Neural Architecture Search based on Search Economics](https://www.doi.org/10.1109/TEVC.2023.3264533)
 
-## 2. Download
-### 2.1 Datasets
-#### NAS-Bench-101
-Download [nasbench_only108.tfrecord](https://github.com/google-research/nasbench) file and place it in searchspace folder.
+## Overview
+Coming soon...
 
-#### NAS-Bench-201
-Download [NAS-Bench-201-v1_1-096897.pth](https://github.com/D-X-Y/NAS-Bench-201) file and place it in searchspace folder.
+## Installation
 
-#### NATS-Bench-SSS
-Download [NATS-sss-v1_0-50262-simple.tar](https://github.com/D-X-Y/NATS-Bench) file and place it in searchspace folder.
-### Setup
+Clone this repo:
+```
+git clone https://github.com/cwtsaiai/TNASSE.git
+```
 
 We provide a conda environment setup file. Create a conda environment `tnasse` by running:
 ```
 conda env create -f env.yml
 ```
-Activate the environment 
+Activate the environment: 
 ```
 conda activate tnasse
 ```
-### 2.2 Source Coees
 
-### 2.3 Usage
+Download benchmark datasets:
+1. NAS-Bench-101
+Download [nasbench_only108.tfrecord](https://github.com/google-research/nasbench) file and place it in searchspace folder.
+
+2. NAS-Bench-201
+Download [NAS-Bench-201-v1_1-096897.pth](https://github.com/D-X-Y/NAS-Bench-201) file and place it in searchspace folder.
+
+3. NATS-Bench-SSS
+Download [NATS-sss-v1_0-50262-simple.tar](https://github.com/D-X-Y/NATS-Bench) file and place it in searchspace folder.
+
+## Usage
 
 Here we provide a script to reproduce the results
 ```
 ./search.sh
 ```
-## 3. Paper Information
+## Citation
  [Meng-Ting Wu](),  [Hung-I Lin](), [Chun-Wei Tsai](https://sites.google.com/site/cwtsai0807/chun-wei-tsai),
- ["A Training-Free Neural Architecture Search Algorithm based on Search Economics"](https://ieeexplore.ieee.org/document/10092788), <i>IEEE Transactions on Evolutionary Computation (TEVC)</i>, 2023, In Press.
+ ["A Training-Free Neural Architecture Search Algorithm based on Search Economics"](https://www.doi.org/10.1109/TEVC.2023.3264533), <i>IEEE Transactions on Evolutionary Computation (TEVC)</i>, 2023, In Press.
 
-Here is a BiBTeX citation as well: <br>
-@ARTICLE{Wu-2023, <br>
-  author={Wu, Meng-Ting and Lin, Hung-I and Tsai, Chun-Wei}, <br>
-  journal={IEEE Transactions on Evolutionary Computation},  <br>
-  title={A Training-Free Neural Architecture Search Algorithm based on Search Economics},  <br>
-  doi={10.1109/TEVC.2023.3264533}, <br>
-  year={2023, In Press} <br>
+```
+@ARTICLE{Wu-2023,
+  author={Wu, Meng-Ting and Lin, Hung-I and Tsai, Chun-Wei},
+  journal={IEEE Transactions on Evolutionary Computation},
+  title={A Training-Free Neural Architecture Search Algorithm based on Search Economics},
+  doi={10.1109/TEVC.2023.3264533},
+  year={2023, In Press}
 }
+```
