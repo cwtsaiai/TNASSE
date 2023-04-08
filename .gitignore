@@ -1,1 +1,16 @@
 .DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# data
+dataset/
+
+# benchmarks
+searchspace/NAS-Bench-201-v1_1-096897.pth
+searchspace/nasbench_only108.tfrecord
+searchspace/NATS-sss-v1_0-50262-simple
+
+# pycls
+score_function/pycls
