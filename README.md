@@ -1,6 +1,4 @@
-# A Training-free Neural Architecture Search based on Search Economics (TNASSE)
-
-The official code for the IEEE TEVC paper: [A Training-free Neural Architecture Search based on Search Economics](https://www.doi.org/10.1109/TEVC.2023.3264533)
+# A Training-free Neural Architecture Search based on Search Economics (TNASSE) [PDF](https://www.doi.org/10.1109/TEVC.2023.3264533)
 
 ## Overview
 Coming soon...
@@ -21,7 +19,7 @@ Activate the environment:
 conda activate tnasse
 ```
 
-Download benchmark datasets:
+Benchmark datasets used in this study:
 1. NAS-Bench-101
 Download [nasbench_only108.tfrecord](https://github.com/google-research/nasbench) file and place it in searchspace folder.
 
