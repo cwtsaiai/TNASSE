@@ -1,4 +1,4 @@
-# A Training-free Neural Architecture Search based on Search Economics (TNASSE) [PDF](https://www.doi.org/10.1109/TEVC.2023.3264533)
+# A Training-free Neural Architecture Search Based on Search Economics (TNASSE) [PDF](https://www.doi.org/10.1109/TEVC.2023.3264533)
 
 ## Overview
 Coming soon...
@@ -37,13 +37,13 @@ Here we provide a script to reproduce the results
 ```
 ## Citation
  [Meng-Ting Wu](),  [Hung-I Lin](), [Chun-Wei Tsai](https://sites.google.com/site/cwtsai0807/chun-wei-tsai),
- ["A Training-Free Neural Architecture Search Algorithm based on Search Economics"](https://www.doi.org/10.1109/TEVC.2023.3264533), <i>IEEE Transactions on Evolutionary Computation (TEVC)</i>, 2023, In Press.
+ ["A Training-Free Neural Architecture Search Algorithm Based on Search Economics"](https://www.doi.org/10.1109/TEVC.2023.3264533), <i>IEEE Transactions on Evolutionary Computation (TEVC)</i>, 2023, In Press.
 
 ```
 @ARTICLE{Wu-2023,
   author={Wu, Meng-Ting and Lin, Hung-I and Tsai, Chun-Wei},
   journal={IEEE Transactions on Evolutionary Computation},
-  title={A Training-Free Neural Architecture Search Algorithm based on Search Economics},
+  title={A Training-Free Neural Architecture Search Algorithm Based on Search Economics},
   doi={10.1109/TEVC.2023.3264533},
   year={2023, In Press}
 }
