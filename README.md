@@ -1,4 +1,4 @@
-# A Training-free Neural Architecture Search Based on Search Economics (TNASSE) [PDF](https://www.doi.org/10.1109/TEVC.2023.3264533)
+# A Training-Free Neural Architecture Search Based on Search Economics (TNASSE) [PDF](https://www.doi.org/10.1109/TEVC.2023.3264533)
 
 ## Overview
 Coming soon...
