@@ -35,16 +35,19 @@ def score(code,get_net_by_code,train_loader,device,args,data,target,noise):
         errs.append(np.sum(np.square(error))/error.size)
     try:
         epsilon=1e-10
+        theta = 0
 
-        na = ((channel/np.log(epsilon+np.sum(errs)))*(n_conv/len(errs)))
-
-        if na>0:
-            na = np.log(na)
+        eta = np.log(epsilon+np.sum(errs))
+        gamma = channel
+        rho = n_conv/len(errs)
+        
+        if eta>theta:
+            Psi = np.log((gamma*rho)/eta)
         else:
-            na = 0
+            Psi = 0
         
     except Exception as e:
-        na=0
+        Psi=0
 
     del(noise_layers)
     del(data_layers)
@@ -55,4 +58,4 @@ def score(code,get_net_by_code,train_loader,device,args,data,target,noise):
         pass
     del(n1)
     del(n2)
-    return na
+    return Psi
