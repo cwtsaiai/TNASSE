@@ -74,8 +74,10 @@ init = getattr(algo_module,args.algo)
 ss = getattr(searchspace,args.ptype.upper())
 ss = ss(args.dataset,args)
 
-if re.search('[a-z]*se',args.algo):
+if re.search('se[a-z]*',args.algo):
     par = {'iters':args.iters, 'n':args.n, 'h':args.h, 'w':args.w, 'sl':args.sl, 'atom':args.atom, 'max_evaluations':args.max_evaluations}
+elif re.search('rs[a-z]*',args.algo):
+    par = {'sample':args.max_evaluations}
 else:
     raise("No such algo!")
 
@@ -134,7 +136,8 @@ if args.algo=="se":
     print("Number of regions: {}".format(args.h))
     print("Number of possible goods: {}".format(args.w))
 
-
+if args.algo=="rs":
+    par['ss'] = ss
 
 for r in range(args.runs):
     start = time.time()
