@@ -56,8 +56,6 @@ from score_function.score import score
 from searchspace import searchspace
 import datasets.data as data
 from datasets.perturbation_data.perturbation_data import *
-from se.tools import *
-DecToN = tools.tools.DecToN
 
 if args.ptype=='nasbench101':
     from searchspace.nas_101_encoding import BACKBONE as ENCODING
