@@ -1,5 +1,9 @@
 # A Training-Free Neural Architecture Search Based on Search Economics (TNASSE) [PDF](https://www.doi.org/10.1109/TEVC.2023.3264533)
 
+This is the companion code for the IEEE TEVC paper: [A Training-Free Neural Architecture Search Based on Search Economics](https://www.doi.org/10.1109/TEVC.2023.3264533)
+
+If you have any questions regarding the paper or encounter any issues while attempting to reproduce the results, please do not hesitate to contact us via email or by opening an issue. We will be happy to assist you.
+
 ## Overview
 
 This repository contains an implementation of an efficient Neural Architecture Search (NAS) algorithm that is based on an improved version of the Search Economics (SEs) metaheuristic algorithm and a novel training-free score function.
