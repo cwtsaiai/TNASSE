@@ -6,12 +6,12 @@ If you have any questions regarding the paper or encounter any issues while atte
 
 ## Overview
 
-This repository contains an implementation of an efficient Neural Architecture Search (NAS) algorithm that is based on an improved version of the Search Economics (SEs) metaheuristic algorithm and a novel training-free score function.
+This repository contains an implementation of an efficient Neural Architecture Search (NAS) algorithm that is based on an improved version of the Search Economics (SE) metaheuristic algorithm and a novel training-free score function.
 
 The proposed NAS algorithm uses the expected value of each region in the search space to guide the search, enabling it to focus on high-potential regions and significantly reduce computation time. We aim to overcome the limitations of existing training-free methods that use simple metaheuristic algorithms and score functions that may misjudge the quality of a neural architecture.
 Experimental results show that the proposed NAS algorithm can find a similar or better result than most non-training-free NAS algorithms, but with a much shorter computation time. The article's contributions can be summarized as a more efficient and accurate method for NAS.
 
-For more details, please refer to our [paper](https://www.doi.org/10.1109/TEVC.2023.3264533)
+For more details, please refer to our [paper](https://www.doi.org/10.1109/TEVC.2023.3264533).
 
 ## Installation
 
