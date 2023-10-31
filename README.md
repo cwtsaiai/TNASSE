@@ -29,6 +29,8 @@ Activate the environment:
 conda activate tnasse
 ```
 
+You can find the `pycls` module at [1](https://github.com/facebookresearch/pycls) and [2](https://github.com/BayesWatch/nas-without-training).
+
 Benchmark datasets used in this study:
 1. NAS-Bench-101:
 Download [nasbench_only108.tfrecord](https://github.com/google-research/nasbench) file and place it in searchspace folder.
