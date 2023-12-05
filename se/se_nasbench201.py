@@ -141,7 +141,7 @@ class se():
     def MarketingResearch(self,s,m):
         m = self.Update(s,m)
         self.Accumulation1(s,m)
-        self.Accumulation1(s,m)
+        self.Accumulation2(s,m)
         return m
 
     def Transition(self,s,m):
@@ -241,5 +241,5 @@ class se():
     def Accumulation2(self,s,m):
         self.tb+=1
         for i in range(self.n):
-            self.tb[self.get_key(s[i])]=1
+            self.tb[self.get_key(s[i])]+=1
     
