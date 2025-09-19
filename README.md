@@ -56,7 +56,9 @@ Here we provide a script to reproduce the results
   author={Wu, Meng-Ting and Lin, Hung-I and Tsai, Chun-Wei},
   journal={IEEE Transactions on Evolutionary Computation},
   title={A Training-Free Neural Architecture Search Algorithm Based on Search Economics},
-  doi={10.1109/TEVC.2023.3264533},
-  year={2023, In Press}
+  volume = {28},
+  number = {2},
+  pages =  {445-459},
+  year={2024}
 }
 ```
