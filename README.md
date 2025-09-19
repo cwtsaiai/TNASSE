@@ -49,10 +49,10 @@ Here we provide a script to reproduce the results
 ```
 ## Citation
  [Meng-Ting Wu](),  [Hung-I Lin](), [Chun-Wei Tsai](https://sites.google.com/site/cwtsai0807/chun-wei-tsai),
- ["A Training-Free Neural Architecture Search Algorithm Based on Search Economics"](https://www.doi.org/10.1109/TEVC.2023.3264533), <i>IEEE Transactions on Evolutionary Computation (TEVC)</i>, 2023, In Press.
+ ["A Training-Free Neural Architecture Search Algorithm Based on Search Economics"](https://www.doi.org/10.1109/TEVC.2023.3264533), <i>IEEE Transactions on Evolutionary Computation (TEVC)</i>, vol. 28, no. 2, pp. 445-459, 2024.
 
 ```
-@ARTICLE{Wu-2023,
+@ARTICLE{Wu-2024,
   author={Wu, Meng-Ting and Lin, Hung-I and Tsai, Chun-Wei},
   journal={IEEE Transactions on Evolutionary Computation},
   title={A Training-Free Neural Architecture Search Algorithm Based on Search Economics},
